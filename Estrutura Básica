@@ -1,0 +1,195 @@
+   <!-- Estrutura Básica -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <!-- Inclusão de folhas de estilo CSS, scripts, entre outros -->
+</head>
+<body>
+    <!-- Conteúdo da Página -->
+    <header>
+        <h1>Título Principal</h1>
+        <nav>
+            <ul>
+                <li><a href="#secao1">Seção 1</a></li>
+                <li><a href="#secao2">Seção 2</a></li>
+                <!-- Outras opções de navegação -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="secao1">
+            <h2>Seção 1</h2>
+            <p>Conteúdo da seção 1.</p>
+        </section>
+
+        <section id="secao2">
+            <h2>Seção 2</h2>
+            <p>Conteúdo da seção 2.</p>
+        </section>
+        <!-- Outras seções e conteúdo -->
+    </main>
+
+    <footer>
+        <p>Rodapé da Página &copy; 2023</p>
+    </footer>
+
+    <!-- Inclusão de scripts JavaScript -->
+</body>
+</html>
+
+    <!-- Títulos e Texto -->
+
+<h1>Este é um Título Principal</h1>
+<h2>Este é um Título Secundário</h2>
+<p>Este é um parágrafo de texto.</p>
+
+    <!-- Listas -->
+
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ol>
+
+                  <!-- Lista Não Ordenada -->
+                    
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+                    
+                          <!-- Lista Ordenada -->
+                              
+                            <ol>
+                              <li>Primeiro Item</li>
+                              <li>Segundo Item</li>
+                              <li>Terceiro Item</li>
+                            </ol>
+                              
+                                      <!-- Lista de Definição -->
+                                          
+                                        <dl>
+                                          <dt>HTML</dt>
+                                          <dd>Linguagem de Marcação de Hipertexto</dd>
+                                          <dt>CSS</dt>
+                                          <dd>Folhas de Estilo em Cascata</dd>
+                                        </dl>
+                                          
+                                                <!-- Lista Aninhada -->
+                                                    
+                                                  <ul>
+                                                    <li>Item 1</li>
+                                                    <li>Item 2
+                                                        <ul>
+                                                            <li>Subitem 2.1</li>
+                                                            <li>Subitem 2.2</li>
+                                                        </ul>
+                                                      </li>
+                                                    <li>Item 3</li>
+                                                  </ul>
+                                                    
+                                                              <!-- Atributos Importantes -->
+                                                                    
+                                                                          type: Usado em listas ordenadas para especificar o tipo de marcação. Exemplo: <ol type="A">.
+                                                                            
+                                                                          start: Especifica o número inicial em uma lista ordenada. Exemplo: <ol start="10">.
+                                                        
+                                                                          reversed: Inverte a ordem em uma lista ordenada. Exemplo: <ol reversed>.
+
+   
+
+
+   <!-- Links e Imagens -->
+
+<a href="https://www.exemplo.com">Link Exemplo</a>
+<img src="imagem.jpg" alt="Descrição da Imagem">
+
+   <!-- Formulários -->
+
+<form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome">
+    <input type="submit" value="Enviar">
+</form>
+
+          <!-- Formulários (Elementos e Atributos) -->
+
+              <body>
+                  <h1>Formulário de Contato</h1>
+              
+                  <form action="/processar-formulario" method="post">
+                      <!-- Rótulo e Campo de Texto -->
+                      <label for="nome">Nome:</label>
+                      <input type="text" id="nome" name="nome" required>
+                      
+                      <!-- Rótulo e Campo de Email -->
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                      
+                      <!-- Rótulo e Campo de Senha -->
+                      <label for="senha">Senha:</label>
+                      <input type="password" id="senha" name="senha" required>
+                      
+                      <!-- Rótulo e Campo de Seleção (Dropdown) -->
+                      <label for="interesse">Interesse:</label>
+                      <select id="interesse" name="interesse">
+                          <option value="web">Desenvolvimento Web</option>
+                          <option value="mobile">Desenvolvimento Mobile</option>
+                          <option value="outro">Outro</option>
+                      </select>
+                      
+                      <!-- Rótulo e Campo de Texto Multilinha -->
+                      <label for="mensagem">Mensagem:</label>
+                      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                      
+                      <!-- Botão de Envio -->
+                      <button type="submit">Enviar</button>
+                  </form>
+              </body>
+
+
+   <!-- Tabelas -->
+
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+    </tr>
+    <tr>
+        <td>João</td>
+        <td>25</td>
+    </tr>
+</table>
+
+   <!-- Divs e Spans -->
+
+<div>Isso é uma divisão</div>
+<span>Isso é um span</span>
+
+   <!-- Cabeçalhos, Parágrafos, e Estilo de Texto: -->
+
+<h1>Título Principal</h1>
+<p>Este é um parágrafo <strong>com texto forte</strong> e <em>texto enfatizado</em>.</p>
+
+   <!-- Áudio e Vídeo -->
+
+<audio controls>
+    <source src="audio.mp3" type="audio/mp3">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    Seu navegador não suporta o elemento de vídeo.
+</video>
+
