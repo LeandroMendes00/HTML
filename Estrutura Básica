@@ -193,3 +193,101 @@
     Seu navegador não suporta o elemento de vídeo.
 </video>
 
+
+ <!-- Semântica na Estrutura do HTML -->
+          <!-- Estruturar e representar o conteúdo de uma página da web de uma maneira significativa e compreensível -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Semântica HTML</title>
+    <style>
+        body {
+            <!-- CSS -->
+        }
+
+        header {
+            <!-- CSS -->
+        }
+
+        nav {
+            <!-- CSS -->
+        }
+
+        nav ul {
+            <!-- CSS -->
+        }
+
+        nav li {
+            <!-- CSS -->
+        }
+
+        main {
+            <!-- CSS -->
+        }
+
+        article {
+            <!-- CSS -->
+        }
+
+        section {
+            <!-- CSS -->
+        }
+
+        aside {
+            <!-- CSS -->;
+        }
+
+        footer {
+           <!-- CSS -->
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Minha Página Semântica</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Artigo Principal</h2>
+            <p>Este é um exemplo de conteúdo de um artigo principal.</p>
+        </article>
+
+        <section>
+            <h2>Seção 1</h2>
+            <p>Conteúdo da Seção 1.</p>
+        </section>
+
+        <section>
+            <h2>Seção 2</h2>
+            <p>Conteúdo da Seção 2.</p>
+        </section>
+
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Conteúdo da barra lateral.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
